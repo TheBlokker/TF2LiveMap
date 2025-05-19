@@ -3,7 +3,7 @@ from flask_cors import CORS
 import json
 import os
 
-EXPORT_PATH = "metromesh_export.json"
+EXPORT_PATH = "tf2livemap_export.json"
 
 app = Flask(__name__)
 CORS(app)  # erlaubt Anfragen vom Frontend
